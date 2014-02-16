@@ -849,7 +849,7 @@ always @ (Address       or Read           or MODEROut       or INT_SOURCEOut  or
           PACKETLENOut  or COLLCONFOut    or CTRLMODEROut   or MIIMODEROut    or
           MIICOMMANDOut or MIIADDRESSOut  or MIITX_DATAOut  or MIIRX_DATAOut  or 
           MIISTATUSOut  or MAC_ADDR0Out   or MAC_ADDR1Out   or TX_BD_NUMOut   or
-          HASH0Out      or HASH1Out       or TXCTRLOut       
+          HASH0Out      or HASH1Out       or TXCTRLOut      or dbg_dat
          )
 begin
   if(Read)  // read
