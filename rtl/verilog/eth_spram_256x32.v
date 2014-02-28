@@ -262,7 +262,7 @@ module eth_spram_256x32(
    //
    // Data output drivers
    //
-   assign dato = (oe & ce) ? q : {32{1'bz}};
+   assign dato = (oe & ce) ? q : {32{1'b0}};
 
    //
    // RAM read and write
